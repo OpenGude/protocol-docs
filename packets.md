@@ -47,6 +47,12 @@ No parameters
 
 This is common - some kind of continuation?
 
+## setTutorialProgress (204)
+
+```
+int: tutorialProgress
+```
+
 ## ??? (229)
 
 ```
@@ -76,3 +82,33 @@ int: rank
 ```
 
 This name might not be very accurate.
+
+## cancelCooling (134217910 - 0x80000B6)
+
+```
+int: kitchenwareType
+```
+
+## triggeredUseButton (134217911 - 0x80000B7)
+
+```
+int: [kitchenwareType,currentIndex]
+```
+
+"HurryUpMetal"
+
+## triggeredUsefulUseButton (134217971 - 0x80000F3)
+
+```
+int: [kitchenwareType,usefulId]
+```
+
+"HurryUpItem"
+
+## triggeredUseButton (134217976 - 0x80000F8)
+
+```
+int: [kitchenwareType,usefulId,currentIndex]
+```
+
+"HurryUpUsually"
